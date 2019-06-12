@@ -17,11 +17,6 @@ app.config['CORS_HEADER'] = 'Content-Type'
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 
-
-@app.before_first_request
-def create_tables():
-    db.create_all()
-
 app.config['JWT_AUTH_URL_RULE'] = '/login'
 app.config['JWT_EXPIRATION_DELTA'] = timedelta(seconds=10800)
 jwt = JWT(app, authenticate, identity)
