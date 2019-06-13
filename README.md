@@ -18,4 +18,4 @@ python app.py
 The server should be running on your local machine at http://127.0.0.1:5000/
 
 ## Client
-The source code for a client designed in react with the intent to interact with this API can be found [here.](https://github.com/tomajohnson21/halo-client-react)
+The source code for a client designed in React with the intent to interact with this API can be found [here.](https://github.com/tomajohnson21/halo-client-react)
