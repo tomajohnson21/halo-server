@@ -1,7 +1,7 @@
 # halo-server
 A Python-Flask server for Halo Investing's coding challenge
 
-##Usage
+## Usage
 This is the source code for an API deployed to Heroku. To run a local version, enter the following commands into your terminal after setting 
 up a virtual environment:
 
